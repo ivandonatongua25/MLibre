@@ -9,6 +9,7 @@ let producto ={
     precio : null,
     cantidad : null
 }
+let saludo = "Bienvenidos a mi juego de l muerte jajajja"
 
 
 
