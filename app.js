@@ -12,7 +12,7 @@ let producto ={
 
 
 
-/*app.get("/",(req,res)=> {
+app.get("/",(req,res)=> {
     res.send("Bienvenido A Mi Pagina");
 });
 app.get("/home",(req,res)=> {
@@ -24,15 +24,11 @@ app.get("/perfil",(req,res) => {
 app.get("/producto/agregar",(req,res)=>{
     res.send(producto);
 });
-*/
 
-app.get("/home",(req,res)=>{
+app.get("/home/ver",(req,res)=>{
     let pathtml = path.join(__dirname,"./views/home.html");
     res.sendFile(pathtml);
 });
-
-
-
 
 
 
